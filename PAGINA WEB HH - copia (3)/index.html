@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Así se vincula a una hoja de estilos -->
+    <title>H&H Ingeniería y Proyectos</title>
+</head>
+
+<body>
+    <header id="main-header">
+    <div class="container">
+        <div id="header-content">
+        
+        <!-- Logo -->
+        <div id="logo" class="centrado-vertical">
+            <a href="#top" class="scroll-top-link">
+            <img src="images/logo.png" alt="H&H Ingeniería" class="img-fluid">
+            </a>
+        </div>
+
+        <!-- Menú de navegación -->
+        <nav id="main-nav">
+            <ul class="menu menu-main">
+            <li><a href="#banner">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Capacitaciones</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        </div>
+    </div>
+    </header>
+   
+    <!-- Carrusel -->
+    <section id="banner">
+
+    <div class="banner-slider" aria-label="Carrusel principal">
+        <button class="slider-btn prev" type="button" aria-label="Anterior">‹</button>
+        <button class="slider-btn next" type="button" aria-label="Siguiente">›</button>
+
+        <div class="slider-track">
+        <div class="slide"><img src="images/banner1.png" alt="Banner 1" draggable="false"></div>
+        <div class="slide"><img src="images/banner2.png" alt="Banner 2" draggable="false"></div>
+        <div class="slide"><img src="images/banner3.png" alt="Banner 3" draggable="false"></div>
+        <div class="slide"><img src="images/banner4.png" alt="Banner 4" draggable="false"></div>
+        <div class="container">
+        </div>
+
+        <!-- opcional: dots -->
+        <div class="dots">
+        <button class="dot active" type="button" aria-label="Ir a 1"></button>
+        <button class="dot" type="button" aria-label="Ir a 2"></button>
+        <button class="dot" type="button" aria-label="Ir a 3"></button>
+        <button class="dot" type="button" aria-label="Ir a 4"></button>
+        </div>
+    </div>
+    </section>
+
+    <script src="js/slider.js"></script>
+
+    <figure class="margin-0" id="main-banner">
+        <img src="images/banner.jpg" class="img-fluid"
+            alt="">
+        <figcaption>
+            <h3>Nuestros Servicios</h3>
+            <p>Diseño | Fabricación | Montaje de Estructuras Metálicas</p>
+            <p>Capacitaciones Virtuales en Diseño y Modelado de Estructuras Metálicas</p>
+            <a href="#servicios" class="vinculo-boton">Más información</a>
+        </figcaption>
+    </figure>
+
+    <section id="destacado" class="padded1">
+        <div class="container">
+            <h3 class="titulo-destacado"><p>"Innovación y calidad</p> <p>para un futuro</p> sostenible"</h3>
+        </div>
+    </section>
+
+    <section id="nosotros">
+        <div class="container">
+            <div class="row">
+                <div class="col centrado-vertical">
+                    <h2>Nosotros</h2>
+                    <p><strong>H&H INGENIERÍA Y PROYECTOS SAC</strong> es una empresa dedicada al diseño, fabricación y montaje de estructuras metálicas, 
+                ofreciendo soluciones de ingeniería confiables y adaptadas a cada proyecto. 
+                Nuestro enfoque es brindar precisión, seguridad y eficiencia en cada proyectos.</p>
+
+                <p>Trabajamos bajo estándares de calidad exigentes, aplicando controles en cada etapa 
+                para asegurar resultados óptimos. Nuestro equipo técnico cuenta con amplia experiencia 
+                en proyectos industriales, comerciales y de infraestructura.</p>
+                </div>
+                <div class="col">
+                    <figure class="margin-0 imagen-leyenda">
+                        <img src="images/empresa.png" alt="" class="img-fluid">
+                        <figcaption class="leyenda alinear-inferior">
+                            <h3>Transformamos Ideas en Ingeniería Real</h3>
+                            <p class="ingenieria">Innovación, seguridad y calidad son la base de todo lo que hacemos.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+   <aside id="aviso" class="padded">
+        <div class="container">
+            <p class="display-1">Este 18 de noviembre<br>vive la magia de Shakira<br>en su Tour <span
+                    class="texto-importante">Las Mujeres<br>Ya No Lloran</span>.
+                ¡Una noche<br>llena de energía, baile, <br>emoción y grandes éxitos!</p>
+        </div>
+        <div class="circulo"></div>
+    </aside>
+
+    <section id="servicios" class="padded servicios-section">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <h3 class="subtitulo-seccion">Ingeniería Metalmecánica</h3>
+            <div class="row servicios-grid">
+                <article class="col servicio-card">
+                    <figure class="servicio-img-box">
+                        <img src="images/diseño.jpg" alt="" class="img-fluid">
+                    </figure>            
+                    <h3 class="servicio-titulo">Diseño y modelado de Estructuras Metálicas</h3>
+                    <p class="servicio-texto">Elaboramos el diseño, modelado, la ingeniería básica, 
+                            ingeniería de detalle, planos de fabricación y de montaje para todos sus proyectos.</p>
+                    <p class="servicio-texto">Trabajamos con personal profesional altamente calificado, con equipos y software especializados.</p>
+                    <div class="btn">
+                        <a href="pages/servicios.html" target="_blank" class="btn-mas">Conoce más</a>
+                    </div>
+                </article>
+
+                <article class="col servicio-card">
+                    <figure class="servicio-img-box">
+                        <img src="images/fabricacion.jpg" alt="" class="img-fluid">
+                    </figure>
+                    <h3 class="servicio-titulo">Fabricación de Estructuras Metálicos</h3>
+                    <p class="servicio-texto">Fabricamos estructuras metálicas ajustadas a las necesidades de cada proyectos, 
+                        trabajando con procesos controlados, soldadura calificada y supervisión constante 
+                        para asegurar la calidad y precisión del producto.</p>
+                    <div class="btn">
+                        <a href="pages/servicios.html" target="_blank" class="btn-mas">Conoce más</a>
+                    </div>
+                </article>
+
+                <article class="col servicio-card">
+                    <figure class="servicio-img-box">
+                        <img src="images/montaje.jpg" alt="" class="img-fluid">
+                    </figure>
+                    <h3 class="servicio-titulo">Montaje e Instalación de Estructuras Metálicas</h3>
+                    <p class="servicio-texto">Realizamos el montaje e instalación de estructuras metálicas con equipos especializados 
+                        y control técnico en cada etapa, garantizando seguridad, precisión y cumplimiento 
+                        de plazos establecidos.</p>
+                    <div class="btn"></div>
+                        <a href="pages/servicios.html" target="_blank" class="btn-mas">Conoce más</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section><!-- servicios -->
+   
+    <div class="container">
+    <section class="cursos-section">
+                <h3 class="titulo-seccion">NUESTROS PROGRAMAS</h3>
+                <p class="subtitulo-seccion">Cursos y Especializaciones</p>
+            <div class="cursos-grid">
+                <div class="curso-card">
+                    <div class="curso-img">
+                        <img src="images/curso1.png" alt="">
+                    </div>
+                <div class="curso-info">
+                    <h3 class="curso-titulo">Curso de Especialización</h3>
+                    <p class="curso-nombre">Modelado de Estructuras Metálicas con Autodesk INVENTOR</p>
+
+                    <button class="btn-demo">Ver AULA VIRTUAL</button>
+                    <button class="btn-matricula">MATRÍCULA</button>
+                </div>
+            </div>
+
+            <!-- TARJETA 2 -->
+            <div class="curso-card">
+                <div class="curso-img">
+                    <img src="images/curso2.png" alt="">
+                </div>
+                <div class="curso-info">
+                    <h3 class="curso-titulo">Curso Especializado</h3>
+                    <p class="curso-nombre">Modelado 3D en Tekla Structures</p>
+
+                    <button class="btn-demo">Ver AULA VIRTUAL</button>
+                    <button class="btn-matricula">MATRÍCULA</button>
+                </div>
+            </div>
+
+            <!-- TARJETA 3 -->
+            <div class="curso-card">
+                <div class="curso-img">
+                    <img src="images/curso3.png" alt="Curso 3">
+                </div>
+                <div class="curso-info">
+                    <h3 class="curso-titulo">Curso Intensivo</h3>
+                    <p class="curso-nombre">AutoCAD para Ingeniería</p>
+
+                    <button class="btn-demo">Ver AULA VIRTUAL</button>
+                    <button class="btn-matricula">MATRÍCULA</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+
+    <section id="videos" class="padded">
+        <div class="container">
+            <h2>Videos</h2>
+            <div class="row">
+                <div class="col">
+                    <iframe class="video-responsive" width="560" height="315"
+                        src="https://www.youtube.com/embed/hpFP2EzZ3WY?si=17_Zt5bbw84yk9aY" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="col">
+                    <video src="videos/gente.mp4" class="video-responsive" controls></video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="indicadores" class="padded">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <span class="display-2">2</span>
+                    <p>Oficinas</p>
+                </div>
+                <div class="col">
+                    <span class="display-2">+100</span>
+                    <p>Clientes</p>
+                </div>
+                <div class="col">
+                    <span class="display-2">+10</span>
+                    <p>Proyectos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <aside id="anuncio" class="padded">
+        <div class="container">
+            <p class="display-1">Soluciones Metalmecánicas con precisión, <br>
+                Capacitación profesional con propósito: 
+                <span class="texto-importante"> <br> Excelencia que impulsa <br>el crecimiento 
+                    <br>de tu proyecto y tu talento.</span> 
+        </div>
+    </aside>
+
+    <section id="eventos" class="padded">
+        <div class="container">
+            <h2>Eventos</h2>
+            <div class="row">
+                <article class="col">
+                    <div class="fecha-evento">18<br>Nov</div>
+                    <i class="fa-regular fa-snowflake"></i>
+                    <h3>Evento 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla in eveniet delectus cupiditate
+                        veritatis laborum quaerat consectetur officiis. Laudantium perferendis dicta modi esse
+                        voluptatum.</p>
+                    <p>Dignissimos ratione, unde maxime nostrum tempore ullam culpa error eaque mollitia maiores nemo!
+                        Debitis in labore assumenda, tempora ut beatae maiores maxime earum eligendi!</p>
+                </article>
+                <article class="col">
+                    <div class="fecha-evento">07<br>Nov</div>
+                    <i class="fa-regular fa-gem"></i>
+                    <h3>Evento 2</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo pariatur nam perferendis
+                        quibusdam temporibus eligendi commodi laboriosam assumenda, neque blanditiis vel libero fugit
+                        veniam.</p>
+                    <p>Suscipit, atque! Ut quis ducimus adipisci porro, itaque qui iure, accusamus sed in quia
+                        consectetur autem quidem provident illum aperiam. Quia quis alias laudantium.</p>
+                </article>
+                <article class="col">
+                    <div class="fecha-evento">03<br>Dic</div>
+                    <i class="fa-regular fa-chess-knight"></i>
+                    <h3>Evento 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat illum distinctio, mollitia qui
+                        fuga necessitatibus fugit quod dignissimos explicabo reprehenderit repellendus incidunt ex
+                        sequi.</p>
+                    <p>Vel nemo fugiat reprehenderit nulla sint! Qui deleniti obcaecati quod officiis ullam quis dolores
+                        sit enim eligendi soluta vero minus doloremque alias, nam sapiente.</p>
+                </article>
+                <article class="col">
+                    <div class="fecha-evento">15<br>Dic</div>
+                    <i class="fa-regular fa-hard-drive"></i>
+                    <h3>Evento 4</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, perspiciatis quibusdam. Eos,
+                        cupiditate. Tenetur ea tempora magnam, animi quis voluptas autem. Ut, harum atque.</p>
+                    <p>Doloremque minima quia atque iure eligendi dolorum esse! Eaque aliquid qui laborum in! Obcaecati,
+                        ex repudiandae cupiditate amet tenetur modi porro corporis dolorem eos!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+     <!-- section#colaboradores.padded>.container>h2{Colaboradores}+.row>article*4.col>h3{Colaborador $}+p>lorem16 -->
+    <section id="colaboradores" class="padded">
+        <div class="container">
+            <h2>Colaboradores</h2>
+            <div class="row">
+                <article class="col">
+                    <figure><img src="images/colaborador1.jpg" alt="" class="img-fluid"></figure>
+                    <h3>Colaborador 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, dolores veritatis? Optio ut
+                        cum officiis rem!</p>
+                </article>
+                <article class="col">
+                    <figure><img src="images/colaborador2.jpg" alt="" class="img-fluid"></figure>
+                    <h3>Colaborador 2</h3>
+                    <p>Beatae corrupti facilis repellat incidunt ipsam in esse, dolorum voluptate, aliquam fuga hic
+                        repellendus maxime aut!</p>
+                </article>
+                <article class="col">
+                    <figure><img src="images/colaborador3.jpg" alt="" class="img-fluid"></figure>
+                    <h3>Colaborador 3</h3>
+                    <p>Quibusdam qui velit ducimus placeat rerum tenetur adipisci. Animi odit doloribus quae incidunt
+                        explicabo iste a!</p>
+                </article>
+                <article class="col">
+                    <figure><img src="images/colaborador4.jpg" alt="" class="img-fluid"></figure>
+                    <h3>Colaborador 4</h3>
+                    <p>Ipsam dolorum delectus minus aliquid ducimus molestiae illum error quam, autem, esse alias porro
+                        qui reiciendis!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="sedes" class="padded">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <figure class="imagen-sedes">
+                        <img src="images/oficina.jpg" alt="" class="img-fluid">
+                        <figcaption>Visitanos</figcaption>
+                    </figure>
+                </div>
+                <div class="col">
+                    <h2>Sedes</h2>
+                    <div class="sede">
+                        <h3>Lima - Puente Piedra </h3>
+                        <h4>(Oficia Central)</h4>
+                        <p>Atendemos proyectos de ingeniería, fabricación y montaje con alcance nacional.</p>
+                    </div class="sede">
+
+                    <!-- Buenos Aires -->
+                    <div class="sede">
+                        <h3>Santa - Nuevo Chimbote</h3>
+                        <h4>(Sede)</h4>
+                        <p>Centro de planificación, gestión y coordinación de proyectos a nivel nacional.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact-section">
+    <div class="container">
+        <h2>CONTÁCTENOS</h2>
+
+        <div class="row contact-content">
+            <div class="col contact-form">
+                <form action="https://formsubmit.co/hh.ingenieria.proyectos@gmail.com" method="POST">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Nombre completo">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Correo electrónico">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Asunto">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" placeholder="Mensaje" rows="5"></textarea>
+                    </div>
+                    <button class="boton-formulario">Enviar mensaje</button>
+                    <input type="hidden" name="_captcha" value="false">                    
+                </form>
+            </div>
+            <div class="col contact-map">
+                <iframe class="mapa-cuadrado"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15610.087648334242!2d-77.0606123!3d-12.0075474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce300d8854e1%3A0x6a1b58f36fcc79a6!2sPlaza%20Norte!5e0!3m2!1ses-419!2spe!4v1764115012181!5m2!1ses-419!2spe"
+                    allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <footer id="main-footer">
+        <div class="container">
+            © 2025 H&H Ingeniería y Proyectos | Todos los derechos reservados
+        </div>
+    </footer>
+    <a href="#" id="ir-arriba"><i class="fa-solid fa-chevron-up"></i></a>
+</body>
+
+</html>
